@@ -8,10 +8,6 @@ public class TCPEchoServer {
 
   public static void main(String[] args) throws IOException {
 
-//    if (args.length != 1)  // Test for correct # of args
-//      throw new IllegalArgumentException("Parameter(s): <>");
-
-//    int servPort = Integer.parseInt(args[0]);
     int servPort = 1000;
 
     // Create a server socket to accept client connection requests
