@@ -9,25 +9,13 @@ import java.io.OutputStream;
 public class TCPEchoClient {
 
   public static void main(String[] args) throws IOException {
-//ditutup
-  //  if ((args.length < 2) || (args.length > 3))  // Test for correct # of args
-    //  throw new IllegalArgumentException("Parameter(s): <localhost> <Word> [<89>]");
 
-    //String server = args[0];       // Server name or IP address
-//ditutup selesai    
-
-String server= "localhost";
+String server= "localhost"; // jika dipraktekkan antar pc , ganti localhost menjadi ip server  
 
 
 byte[] data ="berhasil".getBytes();
 
-
-// Convert argument String to bytes using the default character encoding
-   // byte[] data = args[1].getBytes();
-
-    //int servPort = (args.length == 3) ? Integer.parseInt(args[2]) : 7;
-
-    //diganti
+    //diganti sesuai keinginan
     int servPort = 1000;
     
     // Create socket that is connected to server on specified port
